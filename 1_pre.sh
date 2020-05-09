@@ -14,5 +14,5 @@ mount --make-rslave /mnt/gentoo/sys
 mount --rbind /dev /mnt/gentoo/dev
 mount --make-rslave /mnt/gentoo/dev
 
-mount /dev/sda1 /boot
+mount /dev/sda1 /mnt/gentoo/boot
 chroot /mnt/gentoo /bin/bash
